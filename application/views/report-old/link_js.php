@@ -1,0 +1,2 @@
+<script src="<?php echo base_url('assets/jquery/dist/jquery.min.js'); ?>" type="text/javascript"></script>
+<script src="<?php echo base_url('assets/bootstrap/js/bootstrap.min.js'); ?>" type="text/javascript"></script>

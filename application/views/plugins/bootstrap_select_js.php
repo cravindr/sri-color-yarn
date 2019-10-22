@@ -1,0 +1,2 @@
+<script src="<?php echo base_url('assets/bootstrap-select/js/bootstrap-select.min.js'); ?>" type="text/javascript"></script>
+<script src="<?php echo base_url('assets/multilevel-select/jquery.livequery.js'); ?>" type="text/javascript"></script>

@@ -1,0 +1,1 @@
+<script src="<?php echo base_url('assets/multilevel-select/jquery.livequery.js'); ?>" type="text/javascript"></script>

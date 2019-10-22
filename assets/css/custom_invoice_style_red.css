@@ -1,0 +1,176 @@
+
+@media print {
+    @page {
+        margin-top: 0.7cm;
+        margin-bottom: 0.7cm;
+        margin-right: 0.7cm;
+        margin-left: 0.7cm;
+    }
+
+    .inv_no {
+        font-size: 20px;
+        font-weight: bold;
+        padding-top: 5px;
+        text-align: right;
+        color: #ff5b07;
+    }
+
+    .bill-top{
+        font-size: 16px;
+        text-align: right;
+        font-weight: bold;
+        color: #ff5b07;
+    }
+
+    .top-date{
+        font-size: 18px;
+        text-align: right;
+        font-weight: bold;
+        padding-top: 5px;
+        color:  #127fff;
+    }
+
+    hr {
+        display: block;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: inset;
+        border-width: 1px;
+        border-color:  #127fff;
+        -webkit-print-color-adjust: exact;
+    }
+
+    .address-title{
+        color: orangered;
+        font-weight: bold;
+    }
+
+    table.prod_tab > td,th {
+        border: 1px solid #ff5b07;
+
+    }
+    table th {
+        text-align: center;
+        background-color: #ff5b07;
+        color: white;
+        -webkit-print-color-adjust: exact;
+    }
+
+    table.prod_tab td{
+        border: 1px solid #ff5b07;
+        height: 30px;
+        -webkit-print-color-adjust: exact;
+    }
+
+    /*  Define the background color for all the ODD background rows  */
+    table.prod_tab tbody tr:nth-child(odd){
+        background: #ffbf98;
+    }
+    /*  Define the background color for all the EVEN background rows  */
+    table.prod_tab tbody tr:nth-child(even){
+        background: #ffa381;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    .footer-tab{
+        position: absolute;
+        bottom: 0;
+        width: 99%;
+    }
+
+    .auth-sign{
+        text-align: right;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .border{
+        border: solid 1px black;
+        padding-left: 5px;
+    }
+
+    .border td{
+        border: solid 1px black;
+        padding-left: 3px;
+    }
+
+    div.p{
+        font-size: 15px;
+        font-weight: bold;
+        padding-bottom: 5px;
+    }
+
+    .address-disp{
+        padding-left: 70px !important;
+    }
+
+    .amount-dis table tbody tr td{
+        border: 1px solid #ff5b07;
+        height: 30px;
+        padding-left: 10px;
+        -webkit-print-color-adjust: exact;
+    }
+
+    .amount-dis table{
+        padding-left: 0px !important;
+        float: left;
+        -webkit-print-color-adjust: exact;
+    }
+
+    /*  table.total-list {
+          position: fixed;
+          bottom: 0;
+          width: 99%;
+      }*/
+
+    table.total-list tbody tr td.bank-details,
+    table.total-list tbody tr td.terms-and-conditions{
+        border: 1px solid #ff5b07;
+        -webkit-print-color-adjust: exact;
+        padding-left: 10px;
+    }
+
+    .total-list tr.amount-details td{
+        border: 1px solid #ff5b07;
+        padding-left: 10px;
+        font-weight: bold;
+    }
+
+    .amount-display{
+        text-align: right;
+
+    }
+
+    table.authsign td{
+        border-left: 1px solid #ff5b07;
+        border-right: 1px solid #ff5b07;
+        border-bottom: 1px solid #ff5b07;
+        -webkit-print-color-adjust: exact;
+    }
+
+    table.authsign tr td.auth-signatore{
+        vertical-align: bottom;
+        text-align: center;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    table.authsign .amountinwords {
+        padding-left: 10px;
+    }
+
+    .desc-text{
+        font-size: 12px;
+        color: #127fff;
+        font-weight: bold;
+    }
+
+}
+
+
